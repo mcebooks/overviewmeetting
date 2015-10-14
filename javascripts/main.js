@@ -24,7 +24,9 @@ var viewModel = function() {
 };
 var instanceApp = new viewModel();
 $(document).ready(function() {
-    ko.applyBindings(instanceApp);
+    setTimeout(function(){
+        alert('probando');
+        ko.applyBindings(instanceApp);
     var diaActual = moment().add('days', -1);
     for (iDia = 0; iDia < 35; iDia++) {
         console.log(diaActual.format('YYYY/MM/DD'), 'diaActual');
@@ -63,4 +65,6 @@ $(document).ready(function() {
         }
     });
     $(".accordion").find("h1").eq(3).click();
+    }, 15000)
+    
 });
