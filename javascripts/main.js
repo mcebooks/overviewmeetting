@@ -2,30 +2,11 @@ moment.lang('es');
 var viewModel = function() {
     self = this;
     self.fecha = ko.observable();
-    self.linknormaljw = ko.computed(function() {
-        return 'http://wol.jw.org/es/wol/dt/r4/lp-s/' + moment(self
-                .fecha()).format('YYYY') + '/' + moment(moment()).format(
-                'MM') + '/' + moment(self.fecha()).format('DD') +
-            '';;
-    }, self);
-    self.fechacompleta = ko.computed(function() {
-        var fecha = moment(self.fecha());
-        if (fecha.isValid()) {
-            var fechitacompleta = moment(self.fecha()).format(
-                'dddd') + ' ' + moment(self.fecha()).format(
-                'DD') + ' de ' + moment(self.fecha()).format(
-                'MMMM') + ' de ' + moment(self.fecha()).format(
-                'YYYY');
-            return fechitacompleta;
-        } else {
-            return 'OJOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO';
-        }
-    }, self);
+    
 };
 var instanceApp = new viewModel();
 $(document).ready(function() {
-    setTimeout(function(){
-        alert('probando');
+   
         ko.applyBindings(instanceApp);
     var diaActual = moment().add('days', -1);
     for (iDia = 0; iDia < 35; iDia++) {
@@ -65,6 +46,6 @@ $(document).ready(function() {
         }
     });
     $(".accordion").find("h1").eq(3).click();
-    }, 15000)
+   
     
 });
