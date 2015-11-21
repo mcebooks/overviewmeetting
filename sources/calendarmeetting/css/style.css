@@ -1,0 +1,114 @@
+.wrapper-calendar-table{
+    font-size: 1em;
+}
+
+.wrapper-calendar-table td{
+    line-height: 1em !important;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+  .wrapper-calendar-table{
+    font-size: 1em;
+  }
+
+}
+
+
+.wrapper-calendar-table  .tablesaw-stack td .tablesaw-cell-label, .tablesaw-stack th .tablesaw-cell-label {
+    display: block;
+}
+
+.wrapper-calendar-table  .tablesaw-cell-content{
+    max-width: 100%;
+}
+
+.wrapper-calendar-table  .tablesaw-stack td .tablesaw-cell-label, .tablesaw-stack th .tablesaw-cell-label{
+    width: 100%;
+}
+.font-medium{
+    font-size: 0.8em;
+}
+/*Css de botones*/
+.button-screen {
+	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+	background-color:#007dc1;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.button-screen:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+	background-color:#0061a7;
+}
+.button-screen:active {
+	position:relative;
+	top:1px;
+}
+
+/*Buttons social*/
+	a.linkshare {font-size: 16px; font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif; text-align: center;
+		text-decoration: none;
+	
+	}
+      a.linkshare {color: #ffffff; display: inline-block;  padding: 10px; cursor: pointer; padding: 3px; border-radius: 3px; height: 16px;}
+	  a.linkshare .icon{
+		float: left;
+	  }
+	  a.linkshare > span{
+		float: left;
+		font-size: 0.8em;
+		font-weight: bold;
+	  }
+      a.linkshare[data-type="vk"] {background: #45668e;}
+      a.linkshare[data-type="fb"] {background: #3b5998;}	
+      a.linkshare[data-type="ok"] {background: #ed812b;}
+      a.linkshare[data-type="mr"] {background: #168de2;}
+      a.linkshare[data-type="gp"] {background: #dd4b39;}
+      a.linkshare[data-type="li"] {background: #0976b4;}
+      a.linkshare[data-type="tw"] {background: #55acee;}
+      a.linkshare[data-type="lj"] {background: #004359;}
+      a.linkshare[data-type="tm"] {background: #35465c;}
+      a.linkshare[data-type="bl"] {background: #f57d00;}
+      a.linkshare[data-type="pt"] {background: #cc2127;}
+      a.linkshare[data-type="di"] {background: #000000;}
+      a.linkshare[data-type="en"] {background: #7ac142;}
+      a.linkshare[data-type="rd"] {background: #5f99cf;}
+      a.linkshare[data-type="de"] {background: #3399ff;}
+      a.linkshare[data-type="su"] {background: #eb4924;}
+      a.linkshare[data-type="po"] {background: #d3505a;}
+      a.linkshare[data-type="sb"] {background: #26B1F6;}
+      a.linkshare[data-type="bf"] {background: #323b43;}
+      a.linkshare[data-type="ip"] {background: #428bca;}
+      a.linkshare[data-type="ra"] {background: #990000;}
+      a.linkshare[data-type="xi"] {background: #cfdc00;}
+      a.linkshare[data-type="tg"] {background: #0088cc;}
+      a.linkshare[data-type="vi"] {background: #8f5db7;}
+      a.linkshare[data-type="wa"] {background: #43d854;}
+	  a.linkshare[data-type="wu"] {background: #109d58;}
+      a.linkshare[data-type="ln"] {background: #00c300;}
